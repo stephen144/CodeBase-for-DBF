@@ -1,4 +1,4 @@
-// timer5.h
+// TIMER5.H
 
 #ifndef TIMER5_INC
 

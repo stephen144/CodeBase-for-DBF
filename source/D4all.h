@@ -21,21 +21,21 @@
 /* #define S4CONSOLE */
 
 /* Specify Library Type (choose one) */
-/* #define S4STATIC */
-#define S4DLL
+#define S4STATIC */
+/* #define S4DLL
 
 /* Choose Operating System */
-#define S4WIN32       /* for Windows NT and Windows 95 */
+/* #define S4WIN32       /* for Windows NT and Windows 95 */
 /* #define S4WINCE      */   /* for Windows CE */
-/* #define S4UNIX       */   /* requires CodeBase Portability version */
+#define S4UNIX       */   /* requires CodeBase Portability version */
 /* #define S4MACINTOSH  */   /* requires CodeBase Mac version */
 /* #define S4WIN64     */   /* for IA-64 Windows */
 
 /* Selected default communications option */
-/* #define S4BERKSOCK */
+#define S4BERKSOCK */
 /* #define S4MAC_TCP  */
 /* #define S4MACOT_TCP */
-   #define S4WINSOCK
+/* #define S4WINSOCK
 
 /* Alterable CodeBase Global Defines */
 #define DEF4SERVER_ID "localhost"

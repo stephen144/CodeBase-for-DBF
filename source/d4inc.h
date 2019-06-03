@@ -56,7 +56,7 @@
    #endif
 
    #if defined( S4UNIX ) || defined( S4MACINTOSH ) || defined( S4PALM )
-      #include "p4port.h"
+      //#include "p4port.h"
    #else
       #include <stdarg.h>
       #ifndef S4WINCE
@@ -77,7 +77,7 @@
    #endif
 
    #ifndef S4WINCE
-      #include "push4.h"
+      #include "PUSH4.H"
    #endif
 
    #include "d4defs.h"
@@ -105,7 +105,7 @@
    #endif
    #include "d4data.h"  /* LY 2001/04/12 : moved after oledb.h to avoid redefs */
    #include "d4declar.h"
-   #include "timer5.h"
+   #include "TIMER5.H"
    #include "d4inline.h"
    #include "f4flag.h"
    #include "e4expr.h"

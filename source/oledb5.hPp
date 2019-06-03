@@ -31,7 +31,7 @@
    // one-byte alignment, and then push back on after the file
    #include "pop4.h"
    #include <comdef.h>   // AS 09/22/98 must be before other files or compiler errors out
-   #include "push4.h"
+   #include "PUSH4.H"
 
    // #ifndef OLEDBVERCHK
    //    #define OLEDBVERCHK
