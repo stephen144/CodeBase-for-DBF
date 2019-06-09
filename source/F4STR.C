@@ -4,7 +4,7 @@
    This string will end in a NULL character.
 */
 
-#include "d4all.h"
+#include "D4all.h"
 #ifndef S4UNIX
    #ifdef __TURBOC__
       #pragma hdrstop

@@ -7,7 +7,7 @@ s4quick assumes there is an extra four bytes where the record number
 is put.
 */
 
-#include "d4all.h"
+#include "D4all.h"
 #ifndef S4UNIX
    #ifdef __TURBOC__
       #pragma hdrstop

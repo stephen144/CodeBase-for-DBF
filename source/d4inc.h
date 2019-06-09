@@ -106,24 +106,24 @@
    #include "d4data.h"  /* LY 2001/04/12 : moved after oledb.h to avoid redefs */
    #include "d4declar.h"
    #include "TIMER5.H"
-   #include "d4inline.h"
-   #include "f4flag.h"
+   #include "D4INLINE.H"
+   #include "F4FLAG.H"
    #include "e4expr.h"
-   #include "s4sort.h"
+   #include "S4SORT.H"
    #ifdef S4SERVER
       #include "d4secure.h"
    #endif
    #include "e4string.h"
    #include "e4error.h"
 
-   #include "o4opt.h"
+   #include "O4OPT.H"
 
    #include "c4com.h"
    #ifndef S4STAND_ALONE
       #include "c4comlow.h"
    #endif
 
-   #include "c4trans.h"
+   #include "c4trans.H"
 
    #ifdef OLEDB5BUILD
       #include "oledb5.hpp"
@@ -138,7 +138,7 @@
       #include "inline5.hpp"
    #endif
 
-   #include "r4relate.h"
+   #include "R4RELATE.H"
 
    #ifdef S4VBX
       #include "ctrl4vbx.h"
@@ -150,7 +150,7 @@
 
 //   AS Oct 9/01 - Causes compile problems if not included! -- modify r4reeport.h where appropriate instead.
 //   #ifndef S4OFF_REPORT /* LY 2001/07/18 : avoid undef'd LPSTR in r4report.h */
-      #include "r4report.h"
+      #include "R4REPORT.H"
 //   #endif
 
    #ifdef S4CODE_SCREENS
@@ -167,7 +167,7 @@
    #endif
 
    #ifndef S4WINCE
-      #include "pop4.h"
+      #include "POP4.H"
    #endif
 
 #endif /* !S4RESOURCE_BUILD */

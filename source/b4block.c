@@ -1,7 +1,7 @@
 /* b4block.c  (c)Copyright Sequiter Software Inc., 1988-2001.  All rights reserved. */
 /* forced rebuild mod */
 
-#include "d4all.h"
+#include "D4all.h"
 #ifdef __TURBOC__
    #pragma hdrstop
 #endif  /* __TURBOC__ */

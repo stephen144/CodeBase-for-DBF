@@ -1,6 +1,6 @@
 /* f4seq.cpp/cxx (c)Copyright Sequiter Software Inc., 1988-2001.  All rights reserved. */
 
-#include "d4all.hpp"
+#include "D4all.hpp"
 #ifdef __TURBOC__
    #pragma hdrstop
 #endif  /* __TUROBC__ */

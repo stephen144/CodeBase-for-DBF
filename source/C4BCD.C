@@ -5,7 +5,7 @@
 /*                                              |length                  */
 /*                                              sign                     */
 
-#include "d4all.h"
+#include "D4all.h"
 
 #ifdef __TURBOC__
    #pragma hdrstop

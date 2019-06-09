@@ -1,6 +1,6 @@
 /* s4string.cpp/cxx (c)Copyright Sequiter Software Inc., 1988-2001.  All rights reserved. */
 
-#include "d4all.hpp"
+#include "D4all.hpp"
 #ifndef S4JNI  /* LY 99/07/08 */
 #ifdef __TURBOC__
    #pragma hdrstop

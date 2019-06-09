@@ -3,7 +3,7 @@
    Returns a true or false.
 */
 
-#include "d4all.h"
+#include "D4all.h"
 #ifndef S4UNIX
    #ifdef __TURBOC__
       #pragma hdrstop

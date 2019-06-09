@@ -7,7 +7,7 @@
 /* the SEMAPHORE4 module contains some operating system specific coding
    for the actual implementation of a semaphore */
 
-#include "d4all.h"
+#include "D4all.h"
 
 #ifdef S4COM_PRINT
    void S4FUNCTION debug4display( const char *str ) ;

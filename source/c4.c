@@ -1,6 +1,6 @@
 /* c4.c  Conversion Routines  (c)Copyright Sequiter Software Inc., 1988-2001.  All rights reserved. */
 
-#include "d4all.h"
+#include "D4all.h"
 
 #ifdef __TURBOC__
    #pragma hdrstop
@@ -1098,32 +1098,32 @@ void S4FUNCTION c4trimN( char *str, int nCh )
                {
                   switch( *ptr )
                   {
-                     case 'Œ':
-                        *ptr = 'œ';
+                     case 'ï¿½':
+                        *ptr = 'ï¿½';
                         break;
-                     case '':
-                        *ptr = 'Ÿ';
+                     case 'ï¿½':
+                        *ptr = 'ï¿½';
                         break;
-                     case '£':
-                        *ptr = '³';
+                     case 'ï¿½':
+                        *ptr = 'ï¿½';
                         break;
-                     case '¥':
-                        *ptr = '¹';
+                     case 'ï¿½':
+                        *ptr = 'ï¿½';
                         break;
-                     case '¯':
-                        *ptr = '¿';
+                     case 'ï¿½':
+                        *ptr = 'ï¿½';
                         break;
-                     case 'Æ':
-                        *ptr = 'æ';
+                     case 'ï¿½':
+                        *ptr = 'ï¿½';
                         break;
-                     case 'Ê':
-                        *ptr = 'ê';
+                     case 'ï¿½':
+                        *ptr = 'ï¿½';
                         break;
-                     case 'Ñ':
-                        *ptr = 'ñ';
+                     case 'ï¿½':
+                        *ptr = 'ï¿½';
                         break;
-                     case 'Ó':
-                        *ptr = 'ó';
+                     case 'ï¿½':
+                        *ptr = 'ï¿½';
                         break;
                   }
                }
@@ -1214,32 +1214,32 @@ void S4FUNCTION c4trimN( char *str, int nCh )
                   {
                      switch( *ptr )
                      {
-                        case 'œ':
-                           *ptr = 'Œ';
+                        case 'ï¿½':
+                           *ptr = 'ï¿½';
                            break;
-                        case 'Ÿ':
-                           *ptr = '';
+                        case 'ï¿½':
+                           *ptr = 'ï¿½';
                            break;
-                        case '³':
-                           *ptr = '£';
+                        case 'ï¿½':
+                           *ptr = 'ï¿½';
                            break;
-                        case '¹':
-                           *ptr = '¥';
+                        case 'ï¿½':
+                           *ptr = 'ï¿½';
                            break;
-                        case '¿':
-                           *ptr = '¯';
+                        case 'ï¿½':
+                           *ptr = 'ï¿½';
                            break;
-                        case 'æ':
-                           *ptr = 'Æ';
+                        case 'ï¿½':
+                           *ptr = 'ï¿½';
                            break;
-                        case 'ê':
-                           *ptr = 'Ê';
+                        case 'ï¿½':
+                           *ptr = 'ï¿½';
                            break;
-                        case 'ñ':
-                           *ptr = 'Ñ';
+                        case 'ï¿½':
+                           *ptr = 'ï¿½';
                            break;
-                        case 'ó':
-                           *ptr = 'Ó';
+                        case 'ï¿½':
+                           *ptr = 'ï¿½';
                            break;
                      }
                   }
@@ -1372,7 +1372,7 @@ void S4FUNCTION c4trimN( char *str, int nCh )
                if ( *ptr >= 'a'  &&  *ptr <= 'z' )
                   *ptr &= 0xDF ;
 
-               /* Les accents sont laiss‚ afin d'ˆtre compatible avec toute p‚riph‚rie */
+               /* Les accents sont laissï¿½ afin d'ï¿½tre compatible avec toute pï¿½riphï¿½rie */
                if ( *ptr >= E4C_CED )
                {
                   switch( *ptr )
@@ -1438,7 +1438,7 @@ void S4FUNCTION c4trimN( char *str, int nCh )
                if ( *ptr >= 'A' && *ptr <= 'Z' )
                   *ptr |= 0x20 ;
 
-               /* Les accents sont laiss‚ afin d'ˆtre compatible avec toute p‚riph‚rie */
+               /* Les accents sont laissï¿½ afin d'ï¿½tre compatible avec toute pï¿½riphï¿½rie */
                if ( *ptr >= E4C_CED )
                {
                   switch( *ptr )

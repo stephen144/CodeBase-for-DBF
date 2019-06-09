@@ -5,7 +5,7 @@
    #include <cstring>
 #endif
 // #include <exception>
-#include "d4all.h"
+#include "D4all.h"
 #include "Rijndael.h"
 
 const int CRijndael::sm_alog[256] =

@@ -12,7 +12,7 @@ Nothing in this entire file will ever set CODE4.errorCode
 None of these functions are relevant for the STAND-ALONE version of CodeBase.
 */
 
-#include "d4all.h"
+#include "D4all.h"
 
 // include file for compression/decompression
 #ifdef S4COMPRESS

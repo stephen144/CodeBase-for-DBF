@@ -1,7 +1,7 @@
 /* mutex4.c   (c)Copyright Sequiter Software Inc., 1988-2001.  All rights reserved. */
 
 
-#include "d4all.h"
+#include "D4all.h"
 
 // AS Nov 11/02 - Used now in Windows CE for shared locking
 

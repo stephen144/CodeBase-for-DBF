@@ -1,6 +1,6 @@
 /* d4date.c   (c)Copyright Sequiter Software Inc., 1988-2001.  All rights reserved. */
 
-#include "d4all.h"
+#include "D4all.h"
 #ifndef S4UNIX
    #ifdef __TURBOC__
       #pragma hdrstop
@@ -65,13 +65,13 @@ static DOW dayOfWeek[] =
    #ifdef S4SWEDISH
       {
          { "\0          " },
-         { "M†ndag\0    " },
+         { "Mï¿½ndag\0    " },
          { "Tisdag\0    " },
          { "Onsdag\0    " },
          { "Torsdag\0   " },
          { "Fredag\0    " },
-         { "L”rdag\0    " },
-         { "S”ndag\0    " },
+         { "Lï¿½rdag\0    " },
+         { "Sï¿½ndag\0    " },
       } ;
    #endif
    #ifdef S4FINNISH
@@ -94,8 +94,8 @@ static DOW dayOfWeek[] =
          { "Onsdag\0    " },
          { "Torsdag\0   " },
          { "Fredag\0    " },
-         { "L”rdag\0    " },
-         { "S”ndag\0    " },
+         { "Lï¿½rdag\0    " },
+         { "Sï¿½ndag\0    " },
       } ;
    #endif
 #endif
@@ -123,7 +123,7 @@ static MONTH monthOfYear[] =
          { "\0        " },
          { "Januar\0  " },
          { "Februar\0 " },
-         { "M„rz\0    " },
+         { "Mï¿½rz\0    " },
          { "April\0   " },
          { "Mai\0     " },
          { "Juni\0    " },
@@ -139,17 +139,17 @@ static MONTH monthOfYear[] =
       {
          { "\0        " },
          { "Janvier\0 " },
-         { "F‚vrier\0 " },
+         { "Fï¿½vrier\0 " },
          { "Mars\0    " },
          { "Avril\0   " },
          { "Mai\0     " },
          { "Juin\0    " },
          { "Juillet\0 " },
-         { "Ao–t\0    " },
+         { "Aoï¿½t\0    " },
          { "Septembre" },
          { "Octobre\0 " },
          { "Novembre\0" },
-         { "D‚cembre\0" },
+         { "Dï¿½cembre\0" },
       } ;
    #endif
    #ifdef S4SWEDISH
@@ -177,8 +177,8 @@ static MONTH monthOfYear[] =
          { "Maaliskuu" },
          { "Huhtikuu\0" },
          { "Toukokuu\0" },
-         { "Kes„kuu\0 " },
-         { "Hein„kuu\0" },
+         { "Kesï¿½kuu\0 " },
+         { "Heinï¿½kuu\0" },
          { "Elokuu\0  " },
          { "Syyskuu\0 " },
          { "Lokakuu\0 " },

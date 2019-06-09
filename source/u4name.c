@@ -28,7 +28,7 @@
    u4nameReplaceFwdSlash - takes a complete path and replaces all '/' to '\\' for consistancy
 */
 
-#include "d4all.h"
+#include "D4all.h"
 #ifdef __TURBOC__
    #pragma hdrstop
 #endif

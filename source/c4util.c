@@ -2,7 +2,7 @@
 
 /* contains security utility routines */
 
-#include "d4all.h"
+#include "D4all.h"
 
 #ifdef __TURBOC__
    #pragma hdrstop
@@ -415,7 +415,7 @@
          c4->oledbSchemaCreate = 1 ;
       #endif
       // AS Sep 17/03 - Don't create the index file now because it is more efficient to create the index after all the
-      // records are appended.  With a 1000 locks, was taking 10 mins to create the table.ÿ
+      // records are appended.  With a 1000 locks, was taking 10 mins to create the table.ï¿½
       // DATA4 *data = d4createTemp( c4, statusFields, statusTags ) ;
       DATA4 *data = d4createTemp( c4, statusFields, 0 ) ;
       #ifdef S4MDX

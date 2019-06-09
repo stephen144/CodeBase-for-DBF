@@ -5,7 +5,7 @@
    containing numeric data.
 */
 
-#include "d4all.h"
+#include "D4all.h"
 #ifndef S4UNIX
    #ifdef __TURBOC__
       #pragma hdrstop

@@ -1,6 +1,6 @@
 /* LOG5.CPP used for logging results to a file for testing */
 
-#include "d4all.h"
+#include "D4all.h"
 #ifdef OLEDB5ERROR
    #include "oledb5err.hpp"
 #endif

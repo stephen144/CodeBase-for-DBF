@@ -1,6 +1,6 @@
 /* c4code.c   (c)Copyright Sequiter Software Inc., 1988-2001.  All rights reserved. */
 
-#include "d4all.h"
+#include "D4all.h"
 
 #ifdef __TURBOC__
    #pragma hdrstop
@@ -233,7 +233,7 @@ extern int resetInProgress ;
             myTrial->Title = "CodeBase SQL 2.0 - Evaluation Version";
             myTrial->Caption = "CodeBase SQL 2.0";
             myTrial->Version = "";
-            myTrial->Copyright = "© 1988-2003 Sequiter Software, Inc.";
+            myTrial->Copyright = "ï¿½ 1988-2003 Sequiter Software, Inc.";
 
             myTrial->MsgWelcome = "This is a # trial version of CodeBase SQL 2.0.";
             myTrial->MsgFirst = "Click OK to begin the trial period. Click Cancel to begin the trial period later.";

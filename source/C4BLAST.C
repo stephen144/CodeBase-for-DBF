@@ -1,4 +1,4 @@
-#include "d4all.h"
+#include "D4all.h"
 #ifdef S4CLIENT
 #ifndef S4OFF_BLAST
 int blast4testWrite( CODE4 *c4, long numBytes )

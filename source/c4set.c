@@ -6,7 +6,7 @@
    where the structures are unknown (eg. index independent program) */
 /* cannot be defines */
 
-#include "d4all.h"
+#include "D4all.h"
 
 #ifdef __TURBOC__
    #pragma hdrstop

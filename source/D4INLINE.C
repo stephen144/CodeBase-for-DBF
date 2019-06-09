@@ -1,6 +1,6 @@
 /* d4inline.c   (c)Copyright Sequiter Software Inc., 1988-2001.  All rights reserved. */
 
-#include "d4all.h"
+#include "D4all.h"
 
 #if !defined( S4UNIX ) && defined( __TURBOC__ )
    #pragma hdrstop

@@ -1,4 +1,4 @@
-/* d4all.hpp (c)Copyright Sequiter Software Inc., 1988-2001.  All rights reserved. */
+/* D4all.hpp (c)Copyright Sequiter Software Inc., 1988-2001.  All rights reserved. */
 
 #ifndef S4CBPP
    #define S4CBPP
@@ -17,7 +17,7 @@
 #ifdef D4DLL_CPP
    #include "d4dll.h"
 #else
-   #include "d4all.h"
+   #include "D4all.h"
 #endif
 #include "d4data.hpp"
 

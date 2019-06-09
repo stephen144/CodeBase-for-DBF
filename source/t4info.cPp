@@ -1,6 +1,6 @@
 /* t4info.cpp/cxx (c)Copyright Sequiter Software Inc., 1988-1998.  All rights reserved. */
 
-#include "d4all.hpp"
+#include "D4all.hpp"
 #ifdef __TURBOC__
    #pragma hdrstop
 #endif  /* __TUROBC__ */

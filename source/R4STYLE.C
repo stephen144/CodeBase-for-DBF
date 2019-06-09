@@ -1,6 +1,6 @@
 /* r4style.c   (c)Copyright Sequiter Software Inc., 1988-2001.  All rights reserved. */
 
-#include "d4all.h"
+#include "D4all.h"
 #ifndef S4OFF_REPORT
 
 PSTYLE4 S4FUNCTION style4lookup( REPORT4 *report, char *style_name )

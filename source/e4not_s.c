@@ -3,7 +3,7 @@
 /* contains error stubs for functions not supported under various compile
    switches */
 
-#include "d4all.h"
+#include "D4all.h"
 
 #ifdef S4OS2DLL
    #ifndef S4DLL_DEF

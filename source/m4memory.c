@@ -1,6 +1,6 @@
 /* m4memory.c   (c)Copyright Sequiter Software Inc., 1988-2001.  All rights reserved. */
 
-#include "d4all.h"
+#include "D4all.h"
 
 #ifdef S4VB_DOS
    #include "malloc.h"

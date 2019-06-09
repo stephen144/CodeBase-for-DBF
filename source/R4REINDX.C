@@ -1,6 +1,6 @@
 /* r4reindx.c   (c)Copyright Sequiter Software Inc., 1988-2001.  All rights reserved. */
 
-#include "d4all.h"
+#include "D4all.h"
 
 #ifndef S4OFF_WRITE
 #ifndef S4INDEX_OFF

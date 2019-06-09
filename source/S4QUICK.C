@@ -15,7 +15,7 @@
    data for final comparison resolutions in case that two keys are the same.
 */
 
-#include "d4all.h"
+#include "D4all.h"
 #ifndef S4UNIX
    #ifdef __TURBOC__
       #pragma hdrstop

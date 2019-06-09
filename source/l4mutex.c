@@ -4,7 +4,7 @@
   their paramaters are not invalid.  This error will be generated even
   for those functions which otherwise say that no error is generated. */
 
-#include "d4all.h"
+#include "D4all.h"
 
 #if !defined( S4STAND_ALONE ) && !defined( S4OFF_THREAD )
    #ifdef S4COM_PRINT

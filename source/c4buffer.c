@@ -1,4 +1,4 @@
-#include "d4all.h"
+#include "D4all.h"
 
 #if !defined(S4STAND_ALONE) && !defined(S4OFF_COMMUNICATIONS)
 

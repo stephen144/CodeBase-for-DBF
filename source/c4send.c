@@ -2,7 +2,7 @@
 
 /* Functions used for inter-client communications */
 
-#include "d4all.h"
+#include "D4all.h"
 
 #if defined(S4CLIENT) || defined(S4SERVER)
    #include <sys\timeb.h>

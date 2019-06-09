@@ -8,7 +8,7 @@ The communications thread is used to perform asynchronous communications
 as requested by worker threads.
 */
 
-#include "d4all.h"
+#include "D4all.h"
 #ifndef S4STAND_ALONE
 #ifndef S4OFF_COMMUNICATIONS
 #ifndef S4OFF_THREAD

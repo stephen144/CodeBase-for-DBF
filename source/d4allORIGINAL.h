@@ -1,4 +1,4 @@
-/* d4all.h   (c)Copyright Sequiter Software Inc., 1988-2001.  All rights reserved. */
+/* D4all.h   (c)Copyright Sequiter Software Inc., 1988-2001.  All rights reserved. */
 
 #ifndef D4ALL_INC
 #define D4ALL_INC

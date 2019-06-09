@@ -4,7 +4,7 @@
    In the case of only a error4code() condition, communications will still
    operate normally */
 
-#include "d4all.h"
+#include "D4all.h"
 #ifndef S4UNIX
    #ifdef __TURBOC__
       #pragma hdrstop

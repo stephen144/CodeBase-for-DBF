@@ -1,6 +1,6 @@
 /* f4file.c (c)Copyright Sequiter Software Inc., 1988-2006.  All rights reserved. */
 
-#include "d4all.h"
+#include "D4all.h"
 #ifdef __TURBOC__
    #pragma hdrstop
 #endif
