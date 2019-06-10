@@ -152,7 +152,7 @@ int S4FUNCTION d4lock( DATA4 *data, const long rec )
 
 
 
-int S4FUNCTION d4lockInternal( DATA4 *data, const long rec, Bool5 doUnlock, Lock4type lockType )
+int S4FUNCTION d4lockInternal( DATA4 *data, const long rec, Bool5 doUnlock, enum Lock4type lockType )
 {
    // default setting for lockType is LOCK4WRITE
    #ifndef S4SINGLE

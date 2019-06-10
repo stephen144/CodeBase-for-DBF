@@ -3178,7 +3178,7 @@ long S4FUNCTION code4serverOS( CODE4 *c4 )
       #pragma argsused
    #endif
    /* not S4CLIENT */
-   index4format S4FUNCTION code4indexFormat( CODE4 *c4 )
+   enum index4format S4FUNCTION code4indexFormat( CODE4 *c4 )
    {
       // AS Sept. 23/02 - We need to know the index format for dbf type reasons as well, so don't return r4unknown if S4OFF_INDEX is defined
       //#ifdef S4OFF_INDEX
@@ -4902,7 +4902,7 @@ int S4FUNCTION code4additionalFunction( CODE4 *c4, long functionNumber, void *in
 int S4FUNCTION code4additionalFunctionOdbc( CODE4 *c4, long functionNumber, void *infoIn, long infoLenIn, void **infoOut, long *infoLenOut )
 {
    // LY Jul 16/04 : added S4MACINTOSH
-   #if defined( S4CLIENT ) || defined( S4WINCE ) || defined( S4MACINTOSH ) /* LY Dec 9/03 : added S4WINCE */
+   #if defined( S4CLIENT ) || defined( S4WINCE ) || defined(S4UNIX) || defined( S4MACINTOSH ) /* LY Dec 9/03 : added S4WINCE */
       return e4notSupported ;
    #else
       // AS Apr 4/01 - Made available in stand/alone for odbc stored procedures

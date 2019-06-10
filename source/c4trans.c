@@ -1932,7 +1932,7 @@
 
          #ifndef S4OFF_MULTI
             if ( d4lockTest( data, recNo, lock4write ) != 1 )
-               if ( d4lockInternal( data, recNo, 0 ) != 0 )
+               if ( d4lockInternal( data, recNo, 0, lock4write ) != 0 )
                {
                   // AS Mar 4/10 - log more info about what is going on in this case
                   CODE4 *c4 = trans->c4trans->c4 ;
@@ -2570,7 +2570,7 @@
    #ifdef P4ARGS_USED
       #pragma argsused
    #endif
-   int S4FUNCTION tran4lowCommitPhaseOne( TRAN4 *trans, long id, CommitPhaseType phaseType )
+   int S4FUNCTION tran4lowCommitPhaseOne( TRAN4 *trans, long id, enum CommitPhaseType phaseType )
    {
       /*
          phase types - single or dual.  If we are performing a dual-phase commit,
@@ -2853,7 +2853,7 @@
 
 #if !defined( S4OFF_TRAN ) && !defined( S4OFF_WRITE ) && defined( S4STAND_ALONE )
    // !S4OFF_TRAN, !S4OFF_WRITE, S4STAND_ALONE
-   int S4FUNCTION code4tranCommitPhaseOne( CODE4 *c4, CommitPhaseType phaseType )
+   int S4FUNCTION code4tranCommitPhaseOne( CODE4 *c4, enum CommitPhaseType phaseType )
    {
       int saveErr, rc ;
 

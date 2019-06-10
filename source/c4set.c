@@ -777,7 +777,7 @@ short c4indexMultiplierGet( CODE4 *c4 )
 
 
 
-   void S4FUNCTION code4collateNameSet( CODE4 *c4, Collate4name val )
+   void S4FUNCTION code4collateNameSet( CODE4 *c4, enum Collate4name val )
    {
       #ifdef S4CLIENT_OR_FOX
          c4->collateName = val ;
@@ -785,7 +785,7 @@ short c4indexMultiplierGet( CODE4 *c4 )
    }
 
 
-   Collate4name S4FUNCTION code4collateName ( CODE4 *c4 )
+   enum Collate4name S4FUNCTION code4collateName ( CODE4 *c4 )
    {
       #ifdef S4CLIENT_OR_FOX
          return c4->collateName ;
@@ -795,7 +795,7 @@ short c4indexMultiplierGet( CODE4 *c4 )
    }
 
 
-   void S4FUNCTION code4collateNameUnicodeSet( CODE4 *c4, Collate4name val )
+   void S4FUNCTION code4collateNameUnicodeSet( CODE4 *c4, enum Collate4name val )
    {
       #ifdef S4CLIENT_OR_FOX
          c4->collateNameUnicode = val ;
@@ -803,7 +803,7 @@ short c4indexMultiplierGet( CODE4 *c4 )
    }
 
 
-   Collate4name S4FUNCTION code4collateNameUnicode ( CODE4 *c4 )
+   enum Collate4name S4FUNCTION code4collateNameUnicode ( CODE4 *c4 )
    {
       #ifdef S4CLIENT_OR_FOX
          return c4->collateNameUnicode ;
