@@ -1,9 +1,9 @@
-SRCS_C  = b4block.c b4node.c c4.c c4baspas.c  \
-          c4bcd.c c4blast.c c4buffer.c c4code.c  \
-          c4com.c c4com2.c c4conect.c c4conlow.c  \
-          c4const.c c4hook.c c4send.c c4set.c  \
-          c4thread.c c4trans.c c4util.c d4append.c  \
-          d4bottom.c d4close.c d4create.c d4data.c  \
+SRCS_C  = b4block.c B4NODE.c c4.c c4baspas.c  \
+          C4BCD.C C4BLAST.C c4buffer.c C4CODE.C  \
+          c4com.c C4COM2.C C4CONECT.C c4conlow.c  \
+          c4const.c C4HOOK.C c4send.c c4set.c  \
+          C4THREAD.C c4trans.c c4util.c D4APPEND.C  \
+          D4BOTTOM.C d4close.c D4CREATE.C d4data.c  \
           d4date.c d4extra.c d4field.c d4file.c  \
           d4flush.c d4fresh.c d4go.c d4index.c  \
           d4info.c d4inline.c d4lock.c d4modify.c  \
@@ -34,7 +34,7 @@ SRCS_C  = b4block.c b4node.c c4.c c4baspas.c  \
           u4name.c u4util.c
 OBJS    = $(SRCS_C:.c=.o)
 
-.PHONY: all
+.PHONY: all clean
 all:    c4
 
 c4:     $(OBJS)
