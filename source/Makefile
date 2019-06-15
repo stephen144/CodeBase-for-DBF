@@ -4,8 +4,8 @@ SRCS_C  = b4block.c B4NODE.c c4.c c4baspas.c  \
           c4const.c C4HOOK.C c4send.c c4set.c  \
           C4THREAD.C c4trans.c c4util.c D4APPEND.C  \
           D4BOTTOM.C d4close.c D4CREATE.C d4data.c  \
-          d4date.c d4extra.c d4field.c d4file.c  \
-          d4flush.c d4fresh.c d4go.c d4index.c  \
+          D4DATE.C d4extra.c d4field.c d4file.c  \
+          D4FLUSH.C D4FRESH.C d4go.c d4index.c  \
           d4info.c d4inline.c d4lock.c d4modify.c  \
           d4open.c d4opt.c d4pack.c d4positi.c  \
           d4remove.c d4seek.c d4skip.c d4tag.c  \

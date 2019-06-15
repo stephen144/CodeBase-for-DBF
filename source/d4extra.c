@@ -84,10 +84,10 @@ int lock4groupLock( LOCK4GROUP *lock )
          rc = d4lockAppendInternal( lock->data, 0 ) ;
          break ;
       case LOCK4FILE:
-         rc = d4lockFileInternal( lock->data, 0 ) ;
+         rc = d4lockFileInternal( lock->data, 0, lock4any ) ;
          break ;
       case LOCK4RECORD:
-         rc = d4lockInternal( lock->data, lock->id.recNum, 0 ) ;
+         rc = d4lockInternal( lock->data, lock->id.recNum, 0, lock4any ) ;
          break ;
       default:
          rc = error4( lock->data->codeBase, e4lock, E83901 ) ;

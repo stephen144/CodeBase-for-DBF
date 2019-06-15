@@ -229,7 +229,7 @@ void S4FUNCTION d4blank( DATA4 *data )
    #ifndef S4SERVER
       #ifndef S4OFF_ENFORCE_LOCK
          if ( data->codeBase->lockEnforce && data->recNum > 0L )
-            if ( d4lockTest( data, data->recNum ) != 1 )
+            if ( d4lockTest( data, data->recNum, lock4write) != 1 )
             {
                error4( data->codeBase, e4lock, E93303 ) ;
                return ;
@@ -294,7 +294,7 @@ int S4FUNCTION d4bof( DATA4 *data )
          #ifndef S4SERVER
             #ifndef S4OFF_ENFORCE_LOCK
                if ( data->codeBase->lockEnforce && data->recNum > 0L )
-                  if ( d4lockTest( data, data->recNum ) != 1 )
+                  if ( d4lockTest( data, data->recNum, lock4write) != 1 )
                   {
                      error4( data->codeBase, e4lock, E93305 ) ;
                      return ;

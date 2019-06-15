@@ -268,7 +268,7 @@ int S4FUNCTION d4goLow( DATA4 *data, const long recNo, short goForWrite )
                   didLock = 1 ;
                }
             #else
-               rc = d4lockInternal( data, recNo, 1 ) ;
+               rc = d4lockInternal( data, recNo, 1, lock4read ) ;
                if ( rc )
                   return rc ;
                didLock = 1 ;
