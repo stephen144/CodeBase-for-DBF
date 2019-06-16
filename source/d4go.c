@@ -375,7 +375,8 @@ int S4FUNCTION d4goLow( DATA4 *data, const long recNo, short goForWrite )
                //    if ( data->file.doBuffer && ( data->fileServerWriteLock != 0 || data->fileReadLocks.initIterate() != 0 ) )
                //       cb->opt.forceCurrent = 1 ;
                if ( fromDisk == 1 ) /* if bufferred old, and only record is locked, read from disk */
-                  if ( data->file.doBuffer && ( data->fileServerWriteLock == 0 || data->fileReadLocks.initIterate() == 0 ) )
+                  //if ( data->file.doBuffer && ( data->fileServerWriteLock == 0 || data->fileReadLocks.initIterate() == 0 ) )
+                  if ( data->file.doBuffer && ( data->fileServerWriteLock == 0 ) )
                      cb->opt.forceCurrent = 1 ;
             #endif
          #endif

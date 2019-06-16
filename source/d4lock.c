@@ -159,7 +159,7 @@ int S4FUNCTION d4lockInternal( DATA4 *data, const long rec, Bool5 doUnlock, enum
       int rc ;
       CODE4 *c4 ;
       #ifndef S4CLIENT
-         Lock4 *lock ;
+         //Lock4 *lock ;
       #endif
 
       #ifdef E4VBASIC
@@ -808,7 +808,7 @@ int S4FUNCTION d4lockFile( DATA4 *data )
     return d4lockFileInternal( data, 1 ) ;
 }
 
-int S4FUNCTION d4lockFileInternal( DATA4 *data, Bool5 doUnlock, Lock4type lockType )
+int S4FUNCTION d4lockFileInternal( DATA4 *data, Bool5 doUnlock, enum Lock4type lockType )
 {
    #ifdef S4SINGLE
       return 0 ;
@@ -1102,7 +1102,7 @@ int S4FUNCTION d4lockFileInternal( DATA4 *data, Bool5 doUnlock, Lock4type lockTy
    #pragma argsused
 #endif
 /* returns r4locked if someone else locally has locked, 1 if success, 0 if not locked */
-int S4FUNCTION d4lockTest( DATA4 *data, const long recNo, Lock4type lockType )
+int S4FUNCTION d4lockTest( DATA4 *data, const long recNo, enum Lock4type lockType )
 {
    #ifndef S4SINGLE
       int rc ;

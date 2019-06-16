@@ -6,7 +6,7 @@ SRCS_C  = b4block.c B4NODE.c c4.c c4baspas.c  \
           D4BOTTOM.C d4close.c D4CREATE.C d4data.c  \
           D4DATE.C d4extra.c d4field.c d4file.c  \
           D4FLUSH.C D4FRESH.C d4go.c d4index.c  \
-          d4info.c d4inline.c d4lock.c d4modify.c  \
+          D4INFO.C D4INLINE.C d4lock.c d4modify.c  \
           d4open.c d4opt.c d4pack.c d4positi.c  \
           d4remove.c d4seek.c d4skip.c d4tag.c  \
           d4top.c d4unlock.c d4write.c d4zap.c  \
