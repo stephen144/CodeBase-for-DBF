@@ -1039,7 +1039,7 @@
    #pragma argsused
 #endif
 // AS Apr 15/03 - support for new lockId for shared clone locking
-int S4FUNCTION dfile4lockTestFile( DATA4FILE *data, const long lockId, const long serverId, Lock4type lockType )
+int S4FUNCTION dfile4lockTestFile( DATA4FILE *data, const long lockId, const long serverId, enum Lock4type lockType )
 {
    // returns 0 if we don't have locked, 1 if we do.
    // similar fuynction dfile4lockTestFileInternal returns r4locked if another internal

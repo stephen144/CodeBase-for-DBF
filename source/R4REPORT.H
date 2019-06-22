@@ -3,7 +3,7 @@
 /* LY 2002/10/07 : added !S4OFF_REPORT to avoid UNIX compile problems */
 /* LY 2003/06/24 : changed !S4OFF_REPORT to S4WIN32 to avoid WinCE compile problems */
 /* LY July 7/03 : added S4LINUX */
-#if !defined(__REPORT4HEADER) && ( defined( S4WIN32 ) || defined( S4LINUX ) )
+#if !defined(__REPORT4HEADER) && ( defined( S4WIN32 ) || defined( S4UNIX ) )
 // AS Jun 10/03 - fix for e4not_s
 #ifdef S4OFF_REPORT
    typedef void AREA4 ;
@@ -1169,13 +1169,13 @@
    #define  E4_RESULT_LCF    "Could not locate File:"
 
    #ifdef S4GERMAN
-      #define  S4_REP_MENU_CLOSE TEXT("&Schließen")
+      #define  S4_REP_MENU_CLOSE TEXT("&Schlieï¿½en")
    #else
       #define  S4_REP_MENU_CLOSE TEXT("&Close")
    #endif
 
    #ifdef S4GERMAN
-      #define  S4_REP_MENU_NEXT  TEXT("&Nächste")
+      #define  S4_REP_MENU_NEXT  TEXT("&Nï¿½chste")
    #else
       #define  S4_REP_MENU_NEXT  TEXT("&Next")
    #endif

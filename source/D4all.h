@@ -74,7 +74,7 @@
 /* Library Reducing Switches */
 /* #define S4OFF_INDEX    */
 /* #define S4OFF_MEMO     */
-/* #define S4OFF_MULTI    */
+#define S4OFF_MULTI
 /* #define S4OFF_OPTIMIZE */
  #define S4OFF_REPORT
 /* #define S4OFF_TRAN     */

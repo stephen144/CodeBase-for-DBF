@@ -6,12 +6,12 @@ SRCS_C  = b4block.c B4NODE.c c4.c c4baspas.c  \
           D4BOTTOM.C d4close.c D4CREATE.C d4data.c  \
           D4DATE.C d4extra.c d4field.c d4file.c  \
           D4FLUSH.C D4FRESH.C d4go.c d4index.c  \
-          D4INFO.C D4INLINE.C d4lock.c d4modify.c  \
-          d4open.c d4opt.c d4pack.c d4positi.c  \
-          d4remove.c d4seek.c d4skip.c d4tag.c  \
-          d4top.c d4unlock.c d4write.c d4zap.c  \
-          df4lock.c df4unlok.c e4calc.c e4calc_2.c  \
-          e4error.c e4expr.c e4event.c e4functi.c  \
+          D4INFO.C D4INLINE.C d4lock.c D4MODIFY.C  \
+          D4OPEN.C D4OPT.C d4pack.c D4POSITI.C  \
+          D4REMOVE.C D4SEEK.C d4skip.c D4TAG.C  \
+          D4TOP.C d4unlock.c D4WRITE.C d4zap.c  \
+          df4lock.c df4unlok.c E4CALC.C E4CALC_2.C  \
+          e4error.c E4EXPR.C E4EVENT.C e4functi.c  \
           e4not_s.c e4parse.c e4string.c f4ass_f.c  \
           f4char.c f4close.c f4create.c f4double.c  \
           f4field.c f4file.c f4filese.c f4find.cpp  \

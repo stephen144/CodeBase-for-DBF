@@ -147,7 +147,7 @@
 #endif
 int S4FUNCTION d4lock( DATA4 *data, const long rec )
 {
-   return d4lockInternal( data, rec, 1 ) ;
+   return d4lockInternal( data, rec, 1, lock4write ) ;
 }
 
 
@@ -805,7 +805,7 @@ int S4FUNCTION d4lockAppendInternal( DATA4 *data, Bool5 doUnlock )
 #endif
 int S4FUNCTION d4lockFile( DATA4 *data )
 {
-    return d4lockFileInternal( data, 1 ) ;
+    return d4lockFileInternal( data, 1, lock4write ) ;
 }
 
 int S4FUNCTION d4lockFileInternal( DATA4 *data, Bool5 doUnlock, enum Lock4type lockType )
